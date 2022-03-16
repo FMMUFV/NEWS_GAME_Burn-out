@@ -597,14 +597,14 @@ a:focus, a:hover {
 .navbar-brand h1 {
   margin: 0;
 }
-
+/*Zona video*/
 .hero-area {
   padding: 150px 0;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #1f2532;
+  background: #fff;
 }
 
 @media (max-width: 480px) {
@@ -612,9 +612,9 @@ a:focus, a:hover {
     padding: 80px 0;
   }
 }
-
+/*Titulo del video */
 .hero-area .block {
-  color: #fff;
+  color: black;
   padding-left: 30px;
 }
 
