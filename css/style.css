@@ -326,7 +326,17 @@ a:focus, a:hover {
   text-align: center;
 }
 
-.title h2 {
+.title_2 h4 {
+  
+  font-size: 10px;
+  line-height: 10px;
+  font-weight: 700;
+  letter-spacing: 3.3px;
+  text-transform: uppercase;
+  
+}
+
+.title  h2 {
   font-size: 35px;
   color: #232323;
  /* text-transform: capitalize;*/
@@ -369,7 +379,15 @@ a:focus, a:hover {
   width: 90px;
   margin-bottom: 10px;
 }
-
+.title_2 .border {
+  border: none;
+  display: inline-block;
+  border-radius: 3px;
+  height: 6px;
+  position: relative;
+  width: 100px;
+  margin-bottom: 10px;
+}
 .bg-gray {
   background: #f9f9f9;
 }
@@ -382,7 +400,7 @@ a:focus, a:hover {
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.34);
 }
 
-.gradient, .title .border, .service-2 .service-item i {
+.gradient, .title .border,.title_2 .border, .service-2 .service-item i {
   background-image: linear-gradient(100deg, #f9643d, #fe2a77);
 }
 
